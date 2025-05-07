@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="235" prefWidth="290" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.calculatorproject.Methods">
+    <children>
+        <TextField fx:id="display" editable="false" layoutX="96.0" layoutY="45.0" prefHeight="30.0" prefWidth="100.0" />
+        <Button fx:id="button1" layoutX="98.0" layoutY="150.0" mnemonicParsing="false" onAction="#clickNum1" text="1" />
+        <Button fx:id="button2" layoutX="121.0" layoutY="150.0" mnemonicParsing="false" onAction="#clickNum2" text="2" />
+      <Button fx:id="button3" layoutX="146.0" layoutY="150.0" mnemonicParsing="false" onAction="#clickNum3" text="3" />
+      <Button fx:id="button4" layoutX="97.0" layoutY="176.0" mnemonicParsing="false" onAction="#clickNum4" text="4" />
+      <Button fx:id="button5" layoutX="121.0" layoutY="176.0" mnemonicParsing="false" onAction="#clickNum5" text="5" />
+      <Button fx:id="button6" layoutX="146.0" layoutY="176.0" mnemonicParsing="false" onAction="#clickNum6" text="6" />
+      <Button fx:id="button7" layoutX="97.0" layoutY="203.0" mnemonicParsing="false" onAction="#clickNum7" text="7" />
+      <Button fx:id="button8" layoutX="121.0" layoutY="203.0" mnemonicParsing="false" onAction="#clickNum8" text="8" />
+      <Button fx:id="button9" layoutX="146.0" layoutY="203.0" mnemonicParsing="false" onAction="#clickNum9" text="9" />
+      <Button fx:id="AC" layoutX="92.0" layoutY="125.0" mnemonicParsing="false" onAction="#clearAll" text="AC" />
+      <Button fx:id="Minus" layoutX="172.0" layoutY="125.0" mnemonicParsing="false" onAction="#ToMinus" text="-" />
+      <Button fx:id="Plus" layoutX="172.0" layoutY="151.0" mnemonicParsing="false" onAction="#ToPlus" text="+" />
+      <Button fx:id="Result" layoutX="172.0" layoutY="176.0" mnemonicParsing="false" onAction="#ToResult" text="=" />
+      <Button fx:id="dotButton" layoutX="172.0" layoutY="204.0" mnemonicParsing="false" onAction="#clickDot" text="," />
+      <Button fx:id="Multiply" layoutX="127.0" layoutY="125.0" mnemonicParsing="false" onAction="#ToMultiply" prefHeight="26.0" prefWidth="21.0" text="*" />
+      <Button fx:id="Divided" layoutX="148.0" layoutY="125.0" mnemonicParsing="false" onAction="#ToDivided" text="/" />
+      <Button fx:id="button0" layoutX="73.0" layoutY="150.0" mnemonicParsing="false" onAction="#clickNum0" text="0" />
+   </children>
+</AnchorPane>
